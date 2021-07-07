@@ -2,7 +2,7 @@
 //  TestGameTests.m
 //  TestGameTests
 //
-//  Created by Elvis Mwenda on 06/07/2021.
+//  Created by Nouman Aslam on 06/07/2021.
 //
 
 #import <XCTest/XCTest.h>

@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EEAFEF1C2694EF710069C0AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAFEF1B2694EF710069C0AC /* AppDelegate.m */; };
-		EEAFEF1F2694EF710069C0AC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAFEF1E2694EF710069C0AC /* SceneDelegate.m */; };
 		EEAFEF222694EF710069C0AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAFEF212694EF710069C0AC /* ViewController.m */; };
-		EEAFEF252694EF710069C0AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEAFEF232694EF710069C0AC /* Main.storyboard */; };
 		EEAFEF282694EF710069C0AC /* TestGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EEAFEF262694EF710069C0AC /* TestGame.xcdatamodeld */; };
 		EEAFEF2A2694EF730069C0AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEAFEF292694EF730069C0AC /* Assets.xcassets */; };
 		EEAFEF2D2694EF730069C0AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEAFEF2B2694EF730069C0AC /* LaunchScreen.storyboard */; };
@@ -40,11 +38,8 @@
 		EEAFEF172694EF710069C0AC /* TestGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEAFEF1A2694EF710069C0AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EEAFEF1B2694EF710069C0AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EEAFEF1D2694EF710069C0AC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		EEAFEF1E2694EF710069C0AC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		EEAFEF202694EF710069C0AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EEAFEF212694EF710069C0AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		EEAFEF242694EF710069C0AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EEAFEF272694EF710069C0AC /* TestGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestGame.xcdatamodel; sourceTree = "<group>"; };
 		EEAFEF292694EF730069C0AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEAFEF2C2694EF730069C0AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -108,11 +103,8 @@
 			children = (
 				EEAFEF1A2694EF710069C0AC /* AppDelegate.h */,
 				EEAFEF1B2694EF710069C0AC /* AppDelegate.m */,
-				EEAFEF1D2694EF710069C0AC /* SceneDelegate.h */,
-				EEAFEF1E2694EF710069C0AC /* SceneDelegate.m */,
 				EEAFEF202694EF710069C0AC /* ViewController.h */,
 				EEAFEF212694EF710069C0AC /* ViewController.m */,
-				EEAFEF232694EF710069C0AC /* Main.storyboard */,
 				EEAFEF292694EF730069C0AC /* Assets.xcassets */,
 				EEAFEF2B2694EF730069C0AC /* LaunchScreen.storyboard */,
 				EEAFEF2E2694EF730069C0AC /* Info.plist */,
@@ -244,7 +236,6 @@
 			files = (
 				EEAFEF2D2694EF730069C0AC /* LaunchScreen.storyboard in Resources */,
 				EEAFEF2A2694EF730069C0AC /* Assets.xcassets in Resources */,
-				EEAFEF252694EF710069C0AC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +263,6 @@
 				EEAFEF302694EF730069C0AC /* main.m in Sources */,
 				EEAFEF222694EF710069C0AC /* ViewController.m in Sources */,
 				EEAFEF1C2694EF710069C0AC /* AppDelegate.m in Sources */,
-				EEAFEF1F2694EF710069C0AC /* SceneDelegate.m in Sources */,
 				EEAFEF282694EF710069C0AC /* TestGame.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,14 +299,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EEAFEF232694EF710069C0AC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EEAFEF242694EF710069C0AC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EEAFEF2B2694EF730069C0AC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -448,11 +430,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X5E66Q9HX8;
 				INFOPLIST_FILE = TestGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.game.TestGame;
+				PRODUCT_BUNDLE_IDENTIFIER = com.game.TestGamejhghjgjhghjghjghjg;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -466,11 +449,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X5E66Q9HX8;
 				INFOPLIST_FILE = TestGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.game.TestGame;
+				PRODUCT_BUNDLE_IDENTIFIER = com.game.TestGamejhghjgjhghjghjghjg;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
